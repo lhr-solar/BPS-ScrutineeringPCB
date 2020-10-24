@@ -432,4 +432,15 @@ F 3 "~" H 1400 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1100 4650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F9473C1
+P 4400 4250
+F 0 "H1" H 4500 4296 50  0000 L CNN
+F 1 "MountingHole" H 4500 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 4400 4250 50  0001 C CNN
+F 3 "~" H 4400 4250 50  0001 C CNN
+	1    4400 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

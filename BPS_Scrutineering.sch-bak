@@ -406,6 +406,20 @@ Wire Wire Line
 Wire Wire Line
 	1700 4650 1850 4650
 NoConn ~ 2900 4650
+Text Label 1250 4800 0    50   ~ 0
+External_source
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F8E9AEA
+P 1700 4650
+F 0 "#FLG0101" H 1700 4725 50  0001 C CNN
+F 1 "PWR_FLAG" H 1700 4823 50  0000 C CNN
+F 2 "" H 1700 4650 50  0001 C CNN
+F 3 "~" H 1700 4650 50  0001 C CNN
+	1    1700 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 4650
 $Comp
 L Device:Jumper JP16
 U 1 1 5F98ACB2
@@ -417,17 +431,5 @@ F 3 "~" H 1400 4650 50  0001 C CNN
 	1    1400 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5F8E67DE
-P 1100 4650
-F 0 "#PWR0101" H 1100 4400 50  0001 C CNN
-F 1 "GND" H 1105 4477 50  0000 C CNN
-F 2 "" H 1100 4650 50  0001 C CNN
-F 3 "" H 1100 4650 50  0001 C CNN
-	1    1100 4650
-	1    0    0    -1  
-$EndComp
-Text Label 1200 4800 0    50   ~ 0
-External_source_here
+NoConn ~ 1100 4650
 $EndSCHEMATC
