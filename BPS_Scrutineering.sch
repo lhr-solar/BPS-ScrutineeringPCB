@@ -25,17 +25,6 @@ F 3 "~" H 1400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5F9473C1
-P 4650 2000
-F 0 "H1" H 4750 2046 50  0000 L CNN
-F 1 "MountingHole" H 4750 1955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 4650 2000 50  0001 C CNN
-F 3 "~" H 4650 2000 50  0001 C CNN
-	1    4650 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x07_Male JC2
 U 1 1 5F9521B3
 P 4000 1700
@@ -143,61 +132,6 @@ F 1 "Conn_01x01_Female" H 1850 1750 50  0000 L CNN
 F 2 "Connector:Banana_Jack_1Pin" H 2750 1700 50  0001 C CNN
 F 3 "~" H 2750 1700 50  0001 C CNN
 	1    2750 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5FAEC2DE
-P 4650 2200
-F 0 "H2" H 4750 2246 50  0000 L CNN
-F 1 "MountingHole" H 4750 2155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 4650 2200 50  0001 C CNN
-F 3 "~" H 4650 2200 50  0001 C CNN
-	1    4650 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5FAF0045
-P 4650 2400
-F 0 "H3" H 4750 2446 50  0000 L CNN
-F 1 "MountingHole" H 4750 2355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 4650 2400 50  0001 C CNN
-F 3 "~" H 4650 2400 50  0001 C CNN
-	1    4650 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5FAF40EC
-P 5400 2000
-F 0 "H4" H 5500 2046 50  0000 L CNN
-F 1 "MountingHole" H 5500 1955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5400 2000 50  0001 C CNN
-F 3 "~" H 5400 2000 50  0001 C CNN
-	1    5400 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5FAF7F09
-P 5400 2200
-F 0 "H5" H 5500 2246 50  0000 L CNN
-F 1 "MountingHole" H 5500 2155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5400 2200 50  0001 C CNN
-F 3 "~" H 5400 2200 50  0001 C CNN
-	1    5400 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5FAFBD75
-P 5400 2400
-F 0 "H6" H 5500 2446 50  0000 L CNN
-F 1 "MountingHole" H 5500 2355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5400 2400 50  0001 C CNN
-F 3 "~" H 5400 2400 50  0001 C CNN
-	1    5400 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -397,4 +331,26 @@ Wire Wire Line
 	3800 2950 3650 2950
 Wire Wire Line
 	3800 3050 3650 3050
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO1
+U 1 1 5FB02C91
+P 4800 2100
+F 0 "LOGO1" H 4800 2250 50  0001 C CNN
+F 1 "Logo_Placeholder" H 4940 2100 50  0000 L CNN
+F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 4800 2175 50  0001 C CNN
+F 3 "" H 4800 2175 50  0001 C CNN
+	1    4800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO2
+U 1 1 5FB04696
+P 4800 1500
+F 0 "LOGO2" H 4800 1650 50  0001 C CNN
+F 1 "Logo_Placeholder" H 4940 1500 50  0000 L CNN
+F 2 "UTSVT_Special:Hallock_Image" H 4800 1575 50  0001 C CNN
+F 3 "" H 4800 1575 50  0001 C CNN
+	1    4800 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
