@@ -337,9 +337,20 @@ U 1 1 5FB02C91
 P 4800 2100
 F 0 "LOGO1" H 4800 2250 50  0001 C CNN
 F 1 "Logo_Placeholder" H 4940 2100 50  0000 L CNN
-F 2 "" H 4800 2175 50  0001 C CNN
+F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 4800 2175 50  0001 C CNN
 F 3 "" H 4800 2175 50  0001 C CNN
 	1    4800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO2
+U 1 1 5FB04696
+P 4800 1500
+F 0 "LOGO2" H 4800 1650 50  0001 C CNN
+F 1 "Logo_Placeholder" H 4940 1500 50  0000 L CNN
+F 2 "UTSVT_Special:Hallock_Image" H 4800 1575 50  0001 C CNN
+F 3 "" H 4800 1575 50  0001 C CNN
+	1    4800 1500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
