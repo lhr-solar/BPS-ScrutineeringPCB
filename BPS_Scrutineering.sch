@@ -41,7 +41,7 @@ U 1 1 5FA74BB0
 P 2750 1500
 F 0 "J2" H 2778 1526 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 1550 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 1500 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 1500 50  0001 C CNN
 F 3 "~" H 2750 1500 50  0001 C CNN
 	1    2750 1500
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 5FA7529E
 P 2750 1600
 F 0 "J3" H 2778 1626 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 1650 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 1600 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 1600 50  0001 C CNN
 F 3 "~" H 2750 1600 50  0001 C CNN
 	1    2750 1600
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 5FA75C82
 P 2750 1800
 F 0 "J5" H 2778 1826 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 1850 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 1800 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 1800 50  0001 C CNN
 F 3 "~" H 2750 1800 50  0001 C CNN
 	1    2750 1800
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 5FA75C8C
 P 2750 1900
 F 0 "J6" H 2778 1926 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 1950 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 1900 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 1900 50  0001 C CNN
 F 3 "~" H 2750 1900 50  0001 C CNN
 	1    2750 1900
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 5FA75C96
 P 2750 2000
 F 0 "J7" H 2778 2026 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 2050 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 2000 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 2000 50  0001 C CNN
 F 3 "~" H 2750 2000 50  0001 C CNN
 	1    2750 2000
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5FA74463
 P 2750 1400
 F 0 "J1" H 2778 1426 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 1450 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 1400 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 1400 50  0001 C CNN
 F 3 "~" H 2750 1400 50  0001 C CNN
 	1    2750 1400
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 5FA752A8
 P 2750 1700
 F 0 "J4" H 2778 1726 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 1750 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 1700 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 1700 50  0001 C CNN
 F 3 "~" H 2750 1700 50  0001 C CNN
 	1    2750 1700
 	1    0    0    -1  
@@ -171,7 +171,7 @@ U 1 1 5FB908CE
 P 2750 2550
 F 0 "J9" H 2778 2576 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 2600 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 2550 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 2550 50  0001 C CNN
 F 3 "~" H 2750 2550 50  0001 C CNN
 	1    2750 2550
 	1    0    0    -1  
@@ -182,7 +182,7 @@ U 1 1 5FB908D4
 P 2750 2650
 F 0 "J10" H 2778 2676 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 2700 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 2650 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 2650 50  0001 C CNN
 F 3 "~" H 2750 2650 50  0001 C CNN
 	1    2750 2650
 	1    0    0    -1  
@@ -193,7 +193,7 @@ U 1 1 5FB908DA
 P 2750 2850
 F 0 "J12" H 2778 2876 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 2900 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 2850 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 2850 50  0001 C CNN
 F 3 "~" H 2750 2850 50  0001 C CNN
 	1    2750 2850
 	1    0    0    -1  
@@ -204,7 +204,7 @@ U 1 1 5FB908E0
 P 2750 2950
 F 0 "J13" H 2778 2976 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 3000 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 2950 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 2950 50  0001 C CNN
 F 3 "~" H 2750 2950 50  0001 C CNN
 	1    2750 2950
 	1    0    0    -1  
@@ -215,7 +215,7 @@ U 1 1 5FB908E6
 P 2750 3050
 F 0 "J14" H 2778 3076 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 3100 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 3050 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 3050 50  0001 C CNN
 F 3 "~" H 2750 3050 50  0001 C CNN
 	1    2750 3050
 	1    0    0    -1  
@@ -226,7 +226,7 @@ U 1 1 5FB908EC
 P 2750 2450
 F 0 "J8" H 2778 2476 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 2500 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 2450 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 2450 50  0001 C CNN
 F 3 "~" H 2750 2450 50  0001 C CNN
 	1    2750 2450
 	1    0    0    -1  
@@ -237,7 +237,7 @@ U 1 1 5FB908F2
 P 2750 2750
 F 0 "J11" H 2778 2776 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 1850 2800 50  0000 L CNN
-F 2 "Connector:Banana_Jack_1Pin" H 2750 2750 50  0001 C CNN
+F 2 "UTSVT_Connectors:Banana_Jack_1_Pin_4mm" H 2750 2750 50  0001 C CNN
 F 3 "~" H 2750 2750 50  0001 C CNN
 	1    2750 2750
 	1    0    0    -1  
