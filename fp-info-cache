@@ -1,4 +1,4 @@
-18684642450229638
+18684664759264862
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -1391,13 +1391,6 @@ Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/A
 
 0
 2
-2
-Button_Switch_SMD
-SW_SPST_EVQQ2
-Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf
-
-0
-4
 2
 Button_Switch_SMD
 SW_SPST_FSMSM
