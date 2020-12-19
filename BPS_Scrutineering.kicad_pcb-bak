@@ -617,7 +617,7 @@
   )
 
   (module UTSVT_Special:Hallock_Image (layer B.Cu) (tedit 0) (tstamp 5FB09023)
-    (at 192.444 91.664)
+    (at 139.2 111.6 180)
     (path /5FB04696)
     (fp_text reference Dr_Hallock1 (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -1276,7 +1276,7 @@
   )
 
   (module UTSVT_Special:UTSVT_Logo_Symbol (layer F.Cu) (tedit 0) (tstamp 5FB08FEC)
-    (at 175.68 121.89)
+    (at 134.2 123)
     (path /5FB02C91)
     (fp_text reference UTSVT_Logo1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -2001,7 +2001,7 @@
   (gr_line (start 216.828 120.62) (end 216.828 61.184) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 173.648 128.24) (end 209.208 128.24) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 122.428 61.184) (end 122.428 120.62) (layer Edge.Cuts) (width 0.05))
-  (gr_text "To BPS Minion Board" (at 179.8 59.4) (layer F.SilkS)
+  (gr_text "To BPS Minion Board" (at 135.8 60) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "To Batteries" (at 208.8 59.4) (layer F.SilkS)
