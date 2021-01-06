@@ -19,7 +19,7 @@ U 1 1 5F94FA02
 P 3950 3950
 F 0 "JC3" H 4058 4431 50  0000 C CNN
 F 1 "Conn_01x07" H 4058 4340 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0700_1x07_P3.00mm_Horizontal" H 3950 3950 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit_01x07_Horizontal" H 3950 3950 50  0001 C CNN
 F 3 "~" H 3950 3950 50  0001 C CNN
 	1    3950 3950
 	-1   0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5F9521B3
 P 7550 2900
 F 0 "JC2" H 7550 2400 50  0000 R CNN
 F 1 "Conn_01x07" H 7700 2500 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0700_1x07_P3.00mm_Horizontal" H 7550 2900 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit_01x07_Horizontal" H 7550 2900 50  0001 C CNN
 F 3 "~" H 7550 2900 50  0001 C CNN
 	1    7550 2900
 	1    0    0    1   
@@ -52,7 +52,7 @@ U 1 1 5F9537A8
 P 7550 3950
 F 0 "JC4" H 7650 3550 50  0000 R CNN
 F 1 "Conn_01x07" H 7900 4400 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0700_1x07_P3.00mm_Horizontal" H 7550 3950 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit_01x07_Horizontal" H 7550 3950 50  0001 C CNN
 F 3 "~" H 7550 3950 50  0001 C CNN
 	1    7550 3950
 	1    0    0    1   
@@ -63,7 +63,7 @@ U 1 1 5F94EF32
 P 3950 2900
 F 0 "JC1" H 4058 3381 50  0000 C CNN
 F 1 "Conn_01x07" H 4058 3290 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0700_1x07_P3.00mm_Horizontal" H 3950 2900 50  0001 C CNN
+F 2 "UTSVT_Connectors:Molex_MicroFit_01x07_Horizontal" H 3950 2900 50  0001 C CNN
 F 3 "~" H 3950 2900 50  0001 C CNN
 	1    3950 2900
 	-1   0    0    -1  
@@ -336,7 +336,7 @@ L utsvt-misc:Logo_Placeholder UTSVT_Logo1
 U 1 1 5FB02C91
 P 8700 6050
 F 0 "UTSVT_Logo1" H 8700 6200 50  0001 C CNN
-F 1 "Logo_Placeholder" H 8840 6050 50  0000 L CNN
+F 1 "UTSVT" H 8840 6050 50  0000 L CNN
 F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 8700 6125 50  0001 C CNN
 F 3 "" H 8700 6125 50  0001 C CNN
 	1    8700 6050
@@ -347,7 +347,7 @@ L utsvt-misc:Logo_Placeholder Dr_Hallock1
 U 1 1 5FB04696
 P 7600 6050
 F 0 "Dr_Hallock1" H 7600 6200 50  0001 C CNN
-F 1 "Logo_Placeholder" H 7740 6050 50  0000 L CNN
+F 1 "Dr. Hallock" H 7740 6050 50  0000 L CNN
 F 2 "UTSVT_Special:Hallock_Image" H 7600 6125 50  0001 C CNN
 F 3 "" H 7600 6125 50  0001 C CNN
 	1    7600 6050
