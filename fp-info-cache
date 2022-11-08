@@ -1,4 +1,4 @@
-20464828169938929
+20474816544991737
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85344,6 +85344,13 @@ PhoenixContact_PowerCombicon5_GF_3x7.62mm
 9
 3
 UTSVT_Connectors
+Power_Metal_Strip_Battery_Shunt_Resistor_4_Pin_Connector
+
+
+0
+4
+4
+UTSVT_Connectors
 TE_4-2172079-2
 
 
@@ -85491,9 +85498,37 @@ LittelFuse_OMNIBLOK_520Series_PCB
 2
 2
 UTSVT_Passive
+SW_PVA1EEH1
+
+
+0
+4
+4
+UTSVT_Passive
 V2F22HM
 
 
+0
+2
+2
+UTSVT_Passive
+Vishay_100u_Shunt
+
+
+0
+2
+2
+UTSVT_Special
+2M1-SP1-T1-B1-M2QE
+
+
+0
+3
+3
+UTSVT_Special
+2MS6T1B3M2QES
+2MS6T1B3M2QES-3
+Switch
 0
 2
 2
@@ -85546,6 +85581,13 @@ Hallock_Image_Tiny
 0
 0
 0
+UTSVT_Special
+M2024SS1W03BC
+M2024SS1W03-BC-2
+Switch
+0
+6
+6
 UTSVT_Special
 NucleoL432KC
 
