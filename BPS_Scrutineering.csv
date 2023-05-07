@@ -1,9 +1,9 @@
 Source:,C:\Users\pramu\Documents\GitHub\BPS-ScrutineeringPCB\BPS_Scrutineering.kicad_sch,,,,,
-Date:,11/12/2022 15:16,,,,,
+Date:,2/20/2023 12:13,,,,,
 Tool:,Eeschema (6.0.7),,,,,
 Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,
 Component Count:,54,,,,,
-Mouser Project Cart,https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=fcc6c80312,,,,,
+Mouser Project:,https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=fcc6c80312,,,,,
 Individual Components:,,,,,,
 ,,,,,,
 Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
@@ -40,26 +40,26 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
 ,,H2,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3mm_Pad,~
 ,,H3,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3mm_Pad,~
 ,,H4,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3mm_Pad,~
-,,JC1,Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/2/2157601007_PCB_HEADERS-2499559.pdf
-,,JC2,Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/2/2157601007_PCB_HEADERS-2499559.pdf
-,,JC3,Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/2/2157601007_PCB_HEADERS-2499559.pdf
-,,JC4,Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/2/2157601007_PCB_HEADERS-2499559.pdf
+,,JC1,Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/0436500700_PCB_HEADERS-148723.pdf
+,,JC2,Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/0436500700_PCB_HEADERS-148723.pdf
+,,JC3,Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/0436500700_PCB_HEADERS-148723.pdf
+,,JC4,Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/0436500700_PCB_HEADERS-148723.pdf
 ,,SW1,SW_DIP_x07,:SW_DIP_x07_1,UTSVT_Special:7switch_module_DS04254207BKSMT,https://www.mouser.com/datasheet/2/670/ds04_254_smt-1777718.pdf
 ,,SW2,SW_DIP_x07,Switch:SW_DIP_x07,UTSVT_Special:7switch_module_DS04254207BKSMT,https://www.mouser.com/datasheet/2/670/ds04_254_smt-1777718.pdf
-,,TP1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP2,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP3,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP4,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP5,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP6,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP7,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP8,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP9,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP10,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP11,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP12,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP13,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
-,,TP14,TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
+,,TP1,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP2,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP3,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP4,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP5,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP6,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP7,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP8,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP9,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP10,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP11,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP12,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP13,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
+,,TP14,TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
 ,,UTSVT_Logo1,UTSVT,utsvt-misc:Logo_Placeholder,UTSVT_Special:UTSVT_Logo_Symbol,
 ,,,,,,
 ,,,,,,
@@ -71,8 +71,8 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
 2,4,"F1, F8, F15, F22",PTC Fuse,Device:Polyfuse_Small,UTSVT_Special:ptc_fuse_FUSC1607X75N,https://www.mouser.com/datasheet/2/643/ds-CP-0zcm-series-1313124.pdf
 3,24,"F2, F3, F4, F5, F6, F7, F9, F10, F11, F12, F13, F14, F16, F17, F18, F19, F20, F21, F23, F24, F25, F26, F27, F28",PTC_Fuse,Device:Polyfuse_Small,UTSVT_Special:ptc_fuse_FUSC1607X75N,https://www.mouser.com/datasheet/2/643/ds-CP-0zcm-series-1313124.pdf
 4,4,"H1, H2, H3, H4",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_3mm_Pad,~
-5,4,"JC1, JC2, JC3, JC4",Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/2/2157601007_PCB_HEADERS-2499559.pdf
+5,4,"JC1, JC2, JC3, JC4",Conn_01x07,Connector_Generic:Conn_01x07,UTSVT_Connectors:Molex_Microfit+_01x07_Horizontal,https://www.mouser.com/datasheet/2/276/0436500700_PCB_HEADERS-148723.pdf
 6,1,SW1,SW_DIP_x07,:SW_DIP_x07_1,UTSVT_Special:7switch_module_DS04254207BKSMT,https://www.mouser.com/datasheet/2/670/ds04_254_smt-1777718.pdf
 7,1,SW2,SW_DIP_x07,Switch:SW_DIP_x07,UTSVT_Special:7switch_module_DS04254207BKSMT,https://www.mouser.com/datasheet/2/670/ds04_254_smt-1777718.pdf
-8,14,"TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14",TestPoint,Connector:TestPoint,TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm,~
+8,14,"TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Keystone_5005-5009_Compact,~
 9,1,UTSVT_Logo1,UTSVT,utsvt-misc:Logo_Placeholder,UTSVT_Special:UTSVT_Logo_Symbol,
