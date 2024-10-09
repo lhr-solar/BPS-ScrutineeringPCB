@@ -1,0 +1,2716 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "06c10861-e3c5-413d-a7da-aded4260dad7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x09"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x09"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x09_1_1"
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 11.43)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 114.3 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f2d6e77-86cd-4628-8033-47b105ebb7ba")
+	)
+	(junction
+		(at 114.3 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "246359df-bd99-489f-8abf-e85cfd2ff176")
+	)
+	(junction
+		(at 114.3 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c126a5c-ecb1-49e8-9152-78a34c574385")
+	)
+	(junction
+		(at 114.3 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e397ada-afd7-49f2-aca8-3313a47b5785")
+	)
+	(junction
+		(at 114.3 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f6118b3-c341-4de6-9c3d-61dc5011871c")
+	)
+	(junction
+		(at 114.3 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84d07c32-fbd1-466b-97cc-5511ff1850b2")
+	)
+	(junction
+		(at 114.3 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d6a72a-75f8-46a8-8411-39cb904e97ae")
+	)
+	(junction
+		(at 114.3 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c68fcd2f-7852-4a01-8789-1882c6eb1180")
+	)
+	(junction
+		(at 114.3 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8dcaa47-9f93-4d8f-86bd-a87f606bb9f0")
+	)
+	(wire
+		(pts
+			(xy 121.92 82.55) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a425a15-c87b-4c96-bbca-6b4c3495c102")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf33976-8502-42d8-94e7-8ebfa96e2acd")
+	)
+	(wire
+		(pts
+			(xy 80.01 85.09) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2f789c-0359-499a-b8bd-0067e897c7f2")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106889c9-9790-4cc3-8045-a25ac1974cfc")
+	)
+	(wire
+		(pts
+			(xy 114.3 80.01) (xy 120.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dcc675-a173-4566-8327-c409ec92d168")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2457f009-f625-42bc-ad49-bda5a2a75c54")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b4b0ac-e6f7-4baa-b85d-3b135f6d549b")
+	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45584e19-bdf9-45d3-b0b0-8d182c20d22a")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45776fc0-7bae-478e-ace6-41f58aa3d8c4")
+	)
+	(wire
+		(pts
+			(xy 80.01 100.33) (xy 93.98 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46753f2f-0a24-4abb-a211-efae6e1e74cf")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541b8e08-3208-412c-a8cc-37f004064129")
+	)
+	(wire
+		(pts
+			(xy 80.01 110.49) (xy 93.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575c4c0c-711d-4ff8-999f-39d99e8e3889")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 125.73 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584e6a84-7418-49d6-a30c-575e972865cf")
+	)
+	(wire
+		(pts
+			(xy 123.19 80.01) (xy 125.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598701ff-3947-42c2-8c87-051bf16b762c")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 93.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afbdaf2-cada-499e-ad07-8bd03211b24e")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60140e33-8a7a-42d1-9057-f9537d2de481")
+	)
+	(wire
+		(pts
+			(xy 80.01 69.85) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66caf5dd-b5bf-45b6-aec2-32a46c46e866")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718c910d-e0c5-48f8-9192-2fb0bc71836c")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7485686e-f1c9-4f3f-9901-263659032c2a")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7783ee2b-82ea-407c-bfb4-0b57f7d18591")
+	)
+	(wire
+		(pts
+			(xy 114.3 69.85) (xy 123.19 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e083400-eaa1-417f-a9b1-c0d7ea149c43")
+	)
+	(wire
+		(pts
+			(xy 99.06 110.49) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873a8f29-702a-45f5-b411-6c5bd176c43f")
+	)
+	(wire
+		(pts
+			(xy 120.65 100.33) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873a959c-b0d5-4e75-b86c-ceabe0db1c31")
+	)
+	(wire
+		(pts
+			(xy 99.06 100.33) (xy 114.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8842d925-3898-46d0-8047-861bb07f4985")
+	)
+	(wire
+		(pts
+			(xy 99.06 105.41) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de28bbb-d775-4c47-befe-ffce99c4dc25")
+	)
+	(wire
+		(pts
+			(xy 114.3 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df33b39-a507-4d48-9f48-3446d75d97a4")
+	)
+	(wire
+		(pts
+			(xy 80.01 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9159286e-0ec9-46f0-8335-71eba9116d00")
+	)
+	(wire
+		(pts
+			(xy 99.06 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a542ef7-4df4-4354-b48a-bcb7dcb6530f")
+	)
+	(wire
+		(pts
+			(xy 123.19 69.85) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44ecf94-3f01-4be3-a02c-eb6df3195e6b")
+	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb6a231-82c4-40ed-8127-653ae581bd59")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbf7436-b677-41e0-a992-b5fbd847c9d4")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed772c0-2b39-4e81-b4c3-4c1440e5cef9")
+	)
+	(wire
+		(pts
+			(xy 114.3 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41a1cab-cc65-444e-a216-971a36351ae6")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 121.92 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51d7b7e-200d-44bf-a770-1ebaff43e052")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66e584e-ba22-4900-849e-076cc5f9dc1a")
+	)
+	(wire
+		(pts
+			(xy 80.01 105.41) (xy 93.98 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89a679c-2750-43b8-ba82-76567237a9d5")
+	)
+	(wire
+		(pts
+			(xy 121.92 105.41) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c117590a-88c4-43d4-b0d0-0641bad682ae")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cad150-35b3-44d5-879e-f086e9839bed")
+	)
+	(wire
+		(pts
+			(xy 119.38 92.71) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd25864-26ae-412e-8354-7c89de6dc185")
+	)
+	(wire
+		(pts
+			(xy 80.01 95.25) (xy 93.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee768a6-982b-4725-ba8c-448cc9c11306")
+	)
+	(wire
+		(pts
+			(xy 80.01 90.17) (xy 93.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e656e659-b69f-4448-a499-53cd90ed8d53")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d17133-164c-4e8a-8d70-05781468f1b7")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce9a211-6fb8-4f77-a806-daa85e124d8c")
+	)
+	(hierarchical_label "Batt_In_9"
+		(shape input)
+		(at 80.01 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00b655c1-d699-4b0b-a3d0-1ae6afc4aac1")
+	)
+	(hierarchical_label "Batt_In_4"
+		(shape input)
+		(at 80.01 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ac0811e-509f-4d4a-886a-e08ab1f3f8ca")
+	)
+	(hierarchical_label "Batt_In_6"
+		(shape input)
+		(at 80.01 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e63c783-098d-4c79-a52d-52d820a60a96")
+	)
+	(hierarchical_label "Batt_In_3"
+		(shape input)
+		(at 80.01 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83122e1e-0b0e-433b-9d24-89abdabe9352")
+	)
+	(hierarchical_label "Batt_In_1"
+		(shape input)
+		(at 80.01 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "861b86fb-9591-496d-bcec-702c2834a289")
+	)
+	(hierarchical_label "Batt_In_5"
+		(shape input)
+		(at 80.01 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a04caaf4-2133-4590-afaf-e275a6a7dc4d")
+	)
+	(hierarchical_label "Batt_In_7"
+		(shape input)
+		(at 80.01 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2cc2724-fc06-4fc5-be10-0254b8b3d898")
+	)
+	(hierarchical_label "Batt_In_2"
+		(shape input)
+		(at 80.01 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea7e5fc7-a2f3-4084-841a-f45f07f8b254")
+	)
+	(hierarchical_label "Batt_In_8"
+		(shape input)
+		(at 80.01 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f50fc2ec-130f-4a9a-87b9-674a609342c3")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0135a7a5-2ed4-448e-9baa-714d40dc8595")
+		(property "Reference" "TP6"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a9e4ea-51da-46d5-bbb8-b30f9d4522aa")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP15")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06abad38-429a-45af-970c-b787cc10967a")
+		(property "Reference" "F4"
+			(at 93.98 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca22f5fa-202f-4455-b837-8a0097d5c829")
+		)
+		(pin "2"
+			(uuid "c4919e2a-c1cb-4293-8bea-885e915c75d1")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F4")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F13")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F22")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x09")
+		(at 130.81 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1492b46d-c028-483d-b0f4-0c5b38002c0f")
+		(property "Reference" "J1"
+			(at 133.35 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x09"
+			(at 133.35 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0915_1x09_P3.00mm_Vertical"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2085dfd9-e5ec-4c41-b2e5-9fd19471d012")
+		)
+		(pin "7"
+			(uuid "4065e39a-1885-41ca-9d7e-20c91627182d")
+		)
+		(pin "8"
+			(uuid "7810d043-f9c1-42aa-ac45-b3cdc6100fcb")
+		)
+		(pin "1"
+			(uuid "ece58f09-75c8-4837-bf6c-592334cf2ae8")
+		)
+		(pin "5"
+			(uuid "687e1d30-ec44-47e3-86b2-508bcfdc4e01")
+		)
+		(pin "6"
+			(uuid "92fe6dbf-3ad9-4694-bf3d-b043351a4fb8")
+		)
+		(pin "3"
+			(uuid "d8117194-2148-4c3c-a10a-b91cb6a81594")
+		)
+		(pin "9"
+			(uuid "6eedd742-0d08-4b11-ac8f-d2bd73c577d2")
+		)
+		(pin "4"
+			(uuid "ab020a53-5743-475d-8eae-62f65811b1eb")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "J1")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "J3")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28a91e60-589b-4c5f-9474-7c1581dc4489")
+		(property "Reference" "TP4"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ae2a3f1-a6b1-489d-bb24-5dac4316cdf9")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP4")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP13")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP22")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f60359e-01bb-451b-8a07-226b5282af82")
+		(property "Reference" "TP8"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8c90fd5-de7b-44f3-a8dc-9f4f498b14cd")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP8")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP26")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ebb57cf-0341-4859-ba72-54f6b603de13")
+		(property "Reference" "TP1"
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f4817b0-9aa4-434f-9fa7-04cc15afb107")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP1")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP10")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP19")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ff4f52b-7a99-4f5b-9baa-46c8918719fa")
+		(property "Reference" "TP5"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aafecc82-f281-496c-b9b0-576cbb25f9be")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP23")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d90dca9-2d69-4049-90d9-27d75e6f7b1a")
+		(property "Reference" "F6"
+			(at 93.98 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2088849d-3888-40b3-ad20-80ac1cce6590")
+		)
+		(pin "2"
+			(uuid "56a9ec24-f910-41d0-9204-faf18c15cf71")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F6")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F15")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F24")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87b52fd4-8609-46fb-ab95-a42dc12759b0")
+		(property "Reference" "TP7"
+			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9c520da-2f9a-4f9d-94ee-a25639fadb19")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP7")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP16")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP25")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b6f062e-1f98-46c8-9585-45c14023873a")
+		(property "Reference" "TP3"
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8f2c510-5912-42aa-ad32-0715ea482e28")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP12")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP21")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b129463c-4118-4734-8008-63a4e503e6a5")
+		(property "Reference" "F2"
+			(at 93.98 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "501c775f-4b81-4170-9bce-fc6cced26a99")
+		)
+		(pin "2"
+			(uuid "3f1c0f05-5dda-4fe4-98b1-0239f99f84eb")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F2")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F11")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F20")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b551fd8a-05f0-43b3-880c-80afc913169b")
+		(property "Reference" "F1"
+			(at 93.98 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc2a3dfb-7460-4d33-9e3f-70b31424ce4c")
+		)
+		(pin "2"
+			(uuid "374e2357-9046-442b-95f8-c80cad05daab")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F1")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F10")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F19")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6cb575d-f0f0-4673-a090-568210832ee7")
+		(property "Reference" "F9"
+			(at 93.98 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a14f2ff-b6c4-4788-a6bf-8fabaaed5aa2")
+		)
+		(pin "2"
+			(uuid "0b042bca-f6dc-4795-8169-d2341efecd22")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F9")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F18")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F27")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c130cc99-00f5-4ef7-b037-dfc58bf83128")
+		(property "Reference" "TP9"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccb729a9-072c-434a-a532-f006ad398bce")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP9")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP27")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb05e68d-89cd-4abd-85ea-693b3f712079")
+		(property "Reference" "F8"
+			(at 93.98 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb78d59-5b31-469b-afc3-6751c632ace6")
+		)
+		(pin "2"
+			(uuid "c16f93a5-95a2-4ade-a66e-d8d3b4b3e4a0")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F8")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F17")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F26")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d73a057c-5bde-4305-b6f0-2222a867e771")
+		(property "Reference" "TP2"
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caf44542-5b13-45c7-aa47-e0bd4069b973")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "TP2")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "TP11")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "TP20")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfa75d00-516d-47e9-a34d-2b5baa30c4d9")
+		(property "Reference" "F7"
+			(at 93.98 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43fa3d9e-63ff-4c48-ae2e-94e1e3eb9983")
+		)
+		(pin "2"
+			(uuid "5d4aaa41-5945-4976-b72d-3ecf8cde3e89")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F7")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F16")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F25")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1ebcd58-106b-4b82-b4e1-f801376d1efe")
+		(property "Reference" "F5"
+			(at 93.98 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c158ce5-e515-4c47-a2d5-a5404d6c20f1")
+		)
+		(pin "2"
+			(uuid "67873f93-1011-4913-b2fa-da29ac252bae")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F5")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F14")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F23")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 96.52 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7baa09e-d155-4097-95e5-17ecea715cc8")
+		(property "Reference" "F3"
+			(at 93.98 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTC Fuse"
+			(at 87.63 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSC1810X100N"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6744830-80a4-4878-87e4-81e9958851b1")
+		)
+		(pin "2"
+			(uuid "caacca9f-c1f5-4061-9fb8-6234b2788e31")
+		)
+		(instances
+			(project "BPS_Scrutineering"
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/dc32512d-8f1d-4a57-874d-17de53f984ad"
+					(reference "F3")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/3dc4d76b-56a2-45f8-937e-a98141a5fca3"
+					(reference "F12")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/c16d2a4a-7d77-474e-bddd-ea3ee5419ebb"
+					(reference "F21")
+					(unit 1)
+				)
+				(path "/d8c0fac2-3395-4745-a254-89b9e1fe6b78/0a32eb65-2d3e-4c10-98ef-bb572c61ae17"
+					(reference "F30")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

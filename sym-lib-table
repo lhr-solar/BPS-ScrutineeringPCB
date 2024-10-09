@@ -1,7 +1,7 @@
 (sym_lib_table
-  (lib (name "utsvt-power-regulators")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-power-regulators.lib")(options "")(descr ""))
-  (lib (name "utsvt-connectors")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-connectors.lib")(options "")(descr ""))
-  (lib (name "utsvt-bps")(type "Legacy")(uri "${KIPRJMOD}/bps-libs/utsvt-bps.lib")(options "")(descr "")(disabled))
-  (lib (name "utsvt-chips")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-chips.lib")(options "")(descr ""))
-  (lib (name "utsvt-misc")(type "Legacy")(uri "${KIPRJMOD}/common/utsvt-misc.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "utsvt-power-regulators")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-power-regulators.lib")(options "")(descr ""))
+  (lib (name "utsvt-connectors")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-connectors.lib")(options "")(descr ""))
+  (lib (name "utsvt-chips")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-chips.lib")(options "")(descr ""))
+  (lib (name "utsvt-misc")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-misc.lib")(options "")(descr ""))
 )
