@@ -597,58 +597,68 @@
 		)
 	)
 	(junction
-		(at 114.3 100.33)
+		(at 91.44 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f2d6e77-86cd-4628-8033-47b105ebb7ba")
+		(uuid "0eac7d02-32bf-4d28-98ed-cbe0c238ff78")
 	)
 	(junction
-		(at 114.3 74.93)
+		(at 91.44 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "246359df-bd99-489f-8abf-e85cfd2ff176")
+		(uuid "1f88194b-b1cf-49b9-a730-fba6ad6c9de8")
 	)
 	(junction
-		(at 114.3 105.41)
+		(at 91.44 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c126a5c-ecb1-49e8-9152-78a34c574385")
+		(uuid "2d83defd-5c15-478f-bb42-24aac21cb2b7")
 	)
 	(junction
-		(at 114.3 95.25)
+		(at 91.44 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e397ada-afd7-49f2-aca8-3313a47b5785")
+		(uuid "71cad256-b3be-41b1-af60-730bb69614f5")
 	)
 	(junction
-		(at 114.3 80.01)
+		(at 91.44 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f6118b3-c341-4de6-9c3d-61dc5011871c")
+		(uuid "7941ef04-5090-456c-be2b-af3706f81355")
 	)
 	(junction
-		(at 114.3 85.09)
+		(at 91.44 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "84d07c32-fbd1-466b-97cc-5511ff1850b2")
+		(uuid "86f1ffb9-882c-4c8d-89c9-a096b4647bff")
 	)
 	(junction
-		(at 114.3 69.85)
+		(at 91.44 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5d6a72a-75f8-46a8-8411-39cb904e97ae")
+		(uuid "9016e788-426d-41dd-9dd3-610c3c973d5f")
 	)
 	(junction
-		(at 114.3 110.49)
+		(at 91.44 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c68fcd2f-7852-4a01-8789-1882c6eb1180")
+		(uuid "94d8ae56-6259-4fe3-bbe2-65b14f4f48cd")
 	)
 	(junction
-		(at 114.3 90.17)
+		(at 91.44 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8dcaa47-9f93-4d8f-86bd-a87f606bb9f0")
+		(uuid "d1f53568-5dab-4af8-9326-94118da02a1e")
+	)
+	(wire
+		(pts
+			(xy 91.44 85.09) (xy 110.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07186b10-364e-40fc-a32f-b4b5dba8237e")
 	)
 	(wire
 		(pts
@@ -672,7 +682,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 85.09) (xy 93.98 85.09)
+			(xy 80.01 85.09) (xy 91.44 85.09)
 		)
 		(stroke
 			(width 0)
@@ -682,17 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 74.93) (xy 121.92 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "106889c9-9790-4cc3-8045-a25ac1974cfc")
-	)
-	(wire
-		(pts
-			(xy 114.3 80.01) (xy 120.65 80.01)
+			(xy 115.57 80.01) (xy 120.65 80.01)
 		)
 		(stroke
 			(width 0)
@@ -702,23 +702,43 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 80.01) (xy 114.3 80.01)
+			(xy 91.44 95.25) (xy 110.49 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2457f009-f625-42bc-ad49-bda5a2a75c54")
+		(uuid "2d80448e-23a4-472b-8f6d-52080981e262")
 	)
 	(wire
 		(pts
-			(xy 99.06 74.93) (xy 114.3 74.93)
+			(xy 91.44 110.49) (xy 110.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3209050c-8c3c-4cfc-b845-1e5b94233bbc")
+	)
+	(wire
+		(pts
+			(xy 115.57 74.93) (xy 121.92 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32b4b0ac-e6f7-4baa-b85d-3b135f6d549b")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ff13ba-b1ba-4b3c-bede-6eefe917c0c7")
 	)
 	(wire
 		(pts
@@ -732,17 +752,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 95.25) (xy 119.38 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45776fc0-7bae-478e-ace6-41f58aa3d8c4")
-	)
-	(wire
-		(pts
-			(xy 80.01 100.33) (xy 93.98 100.33)
+			(xy 80.01 100.33) (xy 91.44 100.33)
 		)
 		(stroke
 			(width 0)
@@ -762,23 +772,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 110.49) (xy 93.98 110.49)
+			(xy 80.01 110.49) (xy 91.44 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "575c4c0c-711d-4ff8-999f-39d99e8e3889")
-	)
-	(wire
-		(pts
-			(xy 114.3 90.17) (xy 125.73 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "584e6a84-7418-49d6-a30c-575e972865cf")
 	)
 	(wire
 		(pts
@@ -792,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 93.98 80.01)
+			(xy 80.01 80.01) (xy 91.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +802,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 69.85) (xy 114.3 69.85)
+			(xy 91.44 105.41) (xy 110.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d85c4f6-e98f-4bca-a9c5-9ff06ad1a8e4")
+	)
+	(wire
+		(pts
+			(xy 115.57 69.85) (xy 123.19 69.85)
 		)
 		(stroke
 			(width 0)
@@ -812,13 +822,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 93.98 69.85)
+			(xy 80.01 69.85) (xy 91.44 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66caf5dd-b5bf-45b6-aec2-32a46c46e866")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad4cadc-1f29-457d-8b4b-0d0ee3a8cdde")
 	)
 	(wire
 		(pts
@@ -852,17 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 69.85) (xy 123.19 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e083400-eaa1-417f-a9b1-c0d7ea149c43")
-	)
-	(wire
-		(pts
-			(xy 99.06 110.49) (xy 114.3 110.49)
+			(xy 115.57 110.49) (xy 123.19 110.49)
 		)
 		(stroke
 			(width 0)
@@ -882,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 100.33) (xy 114.3 100.33)
+			(xy 115.57 100.33) (xy 120.65 100.33)
 		)
 		(stroke
 			(width 0)
@@ -892,27 +902,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 105.41) (xy 114.3 105.41)
+			(xy 91.44 90.17) (xy 110.49 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8de28bbb-d775-4c47-befe-ffce99c4dc25")
+		(uuid "8c411358-a3e4-4967-93c9-ce3735437296")
 	)
 	(wire
 		(pts
-			(xy 114.3 100.33) (xy 120.65 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df33b39-a507-4d48-9f48-3446d75d97a4")
-	)
-	(wire
-		(pts
-			(xy 80.01 74.93) (xy 93.98 74.93)
+			(xy 80.01 74.93) (xy 91.44 74.93)
 		)
 		(stroke
 			(width 0)
@@ -922,13 +922,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 114.3 95.25)
+			(xy 115.57 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a542ef7-4df4-4354-b48a-bcb7dcb6530f")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.85) (xy 110.49 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb5eca5-68e6-465a-a55f-3a42c83b1e6c")
 	)
 	(wire
 		(pts
@@ -952,27 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 110.49) (xy 123.19 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adbf7436-b677-41e0-a992-b5fbd847c9d4")
-	)
-	(wire
-		(pts
-			(xy 99.06 85.09) (xy 114.3 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aed772c0-2b39-4e81-b4c3-4c1440e5cef9")
-	)
-	(wire
-		(pts
-			(xy 114.3 85.09) (xy 119.38 85.09)
+			(xy 115.57 85.09) (xy 119.38 85.09)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +972,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 105.41) (xy 121.92 105.41)
+			(xy 115.57 105.41) (xy 121.92 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1002,7 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 93.98 105.41)
+			(xy 80.01 105.41) (xy 91.44 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1022,7 +1012,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 90.17) (xy 114.3 90.17)
+			(xy 115.57 90.17) (xy 125.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1042,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 95.25) (xy 93.98 95.25)
+			(xy 80.01 95.25) (xy 91.44 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1052,13 +1042,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 90.17) (xy 93.98 90.17)
+			(xy 80.01 90.17) (xy 91.44 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e656e659-b69f-4448-a499-53cd90ed8d53")
+	)
+	(wire
+		(pts
+			(xy 91.44 74.93) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6dfefb9-316c-4693-a129-555e03ffa244")
 	)
 	(wire
 		(pts
@@ -1190,7 +1190,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 95.25 0)
+		(at 91.44 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1198,7 +1198,7 @@
 		(dnp no)
 		(uuid "0135a7a5-2ed4-448e-9baa-714d40dc8595")
 		(property "Reference" "TP6"
-			(at 114.3 93.98 0)
+			(at 91.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1207,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 93.98 0)
+			(at 81.28 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1216,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 95.25 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 95.25 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1234,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 95.25 0)
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1268,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 85.09 90)
+		(at 113.03 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1276,7 +1276,7 @@
 		(dnp no)
 		(uuid "06abad38-429a-45af-970c-b787cc10967a")
 		(property "Reference" "F4"
-			(at 93.98 86.36 90)
+			(at 110.49 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1284,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 86.36 90)
+			(at 104.14 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1292,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 83.82 0)
+			(at 118.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 85.09 0)
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1311,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 85.09 0)
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1451,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 85.09 0)
+		(at 91.44 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1459,7 +1459,7 @@
 		(dnp no)
 		(uuid "28a91e60-589b-4c5f-9474-7c1581dc4489")
 		(property "Reference" "TP4"
-			(at 114.3 83.82 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1468,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 83.82 0)
+			(at 81.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,7 +1477,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 85.09 0)
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 85.09 0)
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1495,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 85.09 0)
+			(at 91.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1529,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 105.41 0)
+		(at 91.44 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1537,7 +1537,7 @@
 		(dnp no)
 		(uuid "2f60359e-01bb-451b-8a07-226b5282af82")
 		(property "Reference" "TP8"
-			(at 114.3 104.14 0)
+			(at 91.44 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1546,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 104.14 0)
+			(at 81.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1555,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 105.41 0)
+			(at 96.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 105.41 0)
+			(at 96.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1573,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 105.41 0)
+			(at 91.44 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 69.85 0)
+		(at 91.44 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1615,7 +1615,7 @@
 		(dnp no)
 		(uuid "4ebb57cf-0341-4859-ba72-54f6b603de13")
 		(property "Reference" "TP1"
-			(at 114.3 68.58 0)
+			(at 91.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1624,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 68.58 0)
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1633,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 69.85 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1642,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 69.85 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1651,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 69.85 0)
+			(at 91.44 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1685,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 90.17 0)
+		(at 91.44 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1693,7 +1693,7 @@
 		(dnp no)
 		(uuid "5ff4f52b-7a99-4f5b-9baa-46c8918719fa")
 		(property "Reference" "TP5"
-			(at 114.3 88.9 0)
+			(at 91.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1702,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1711,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 90.17 0)
+			(at 96.52 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 90.17 0)
+			(at 96.52 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +1729,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 90.17 0)
+			(at 91.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,7 +1763,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 95.25 90)
+		(at 113.03 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1771,7 +1771,7 @@
 		(dnp no)
 		(uuid "6d90dca9-2d69-4049-90d9-27d75e6f7b1a")
 		(property "Reference" "F6"
-			(at 93.98 96.52 90)
+			(at 110.49 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1779,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 96.52 90)
+			(at 104.14 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 93.98 0)
+			(at 118.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +1797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 95.25 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1806,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 95.25 0)
+			(at 113.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1843,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 100.33 0)
+		(at 91.44 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1851,7 +1851,7 @@
 		(dnp no)
 		(uuid "87b52fd4-8609-46fb-ab95-a42dc12759b0")
 		(property "Reference" "TP7"
-			(at 114.3 99.06 0)
+			(at 91.44 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1860,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 99.06 0)
+			(at 81.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1869,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 100.33 0)
+			(at 96.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 100.33 0)
+			(at 96.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1887,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 100.33 0)
+			(at 91.44 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +1921,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 80.01 0)
+		(at 91.44 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1929,7 +1929,7 @@
 		(dnp no)
 		(uuid "9b6f062e-1f98-46c8-9585-45c14023873a")
 		(property "Reference" "TP3"
-			(at 114.3 78.74 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1938,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 78.74 0)
+			(at 81.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1947,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 80.01 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 80.01 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 80.01 0)
+			(at 91.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1999,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 74.93 90)
+		(at 113.03 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2007,7 +2007,7 @@
 		(dnp no)
 		(uuid "b129463c-4118-4734-8008-63a4e503e6a5")
 		(property "Reference" "F2"
-			(at 93.98 76.2 90)
+			(at 110.49 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2015,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 76.2 90)
+			(at 104.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2023,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 73.66 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,7 +2033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 74.93 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2042,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 74.93 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +2079,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 69.85 90)
+		(at 113.03 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2087,7 +2087,7 @@
 		(dnp no)
 		(uuid "b551fd8a-05f0-43b3-880c-80afc913169b")
 		(property "Reference" "F1"
-			(at 93.98 71.12 90)
+			(at 110.49 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2095,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 71.12 90)
+			(at 104.14 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2103,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 68.58 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,7 +2113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 69.85 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2122,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 69.85 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2159,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 110.49 90)
+		(at 113.03 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2167,7 +2167,7 @@
 		(dnp no)
 		(uuid "b6cb575d-f0f0-4673-a090-568210832ee7")
 		(property "Reference" "F9"
-			(at 93.98 111.76 90)
+			(at 110.49 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2175,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 111.76 90)
+			(at 104.14 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2183,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 109.22 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 110.49 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2202,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 110.49 0)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2239,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 110.49 0)
+		(at 91.44 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2247,7 +2247,7 @@
 		(dnp no)
 		(uuid "c130cc99-00f5-4ef7-b037-dfc58bf83128")
 		(property "Reference" "TP9"
-			(at 114.3 109.22 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2256,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 110.49 0)
+			(at 96.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 110.49 0)
+			(at 96.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2283,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 110.49 0)
+			(at 91.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2317,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 105.41 90)
+		(at 113.03 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2325,7 +2325,7 @@
 		(dnp no)
 		(uuid "cb05e68d-89cd-4abd-85ea-693b3f712079")
 		(property "Reference" "F8"
-			(at 93.98 106.68 90)
+			(at 110.49 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2333,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 106.68 90)
+			(at 104.14 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 104.14 0)
+			(at 118.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2351,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 105.41 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2360,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 105.41 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2397,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 74.93 0)
+		(at 91.44 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2405,7 +2405,7 @@
 		(dnp no)
 		(uuid "d73a057c-5bde-4305-b6f0-2222a867e771")
 		(property "Reference" "TP2"
-			(at 114.3 73.66 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2414,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 73.66 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2423,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
-			(at 119.38 74.93 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 74.93 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2441,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 74.93 0)
+			(at 91.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2475,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 100.33 90)
+		(at 113.03 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2483,7 +2483,7 @@
 		(dnp no)
 		(uuid "dfa75d00-516d-47e9-a34d-2b5baa30c4d9")
 		(property "Reference" "F7"
-			(at 93.98 101.6 90)
+			(at 110.49 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2491,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 101.6 90)
+			(at 104.14 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 99.06 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 100.33 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2518,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 100.33 0)
+			(at 113.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2555,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 90.17 90)
+		(at 113.03 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2563,7 +2563,7 @@
 		(dnp no)
 		(uuid "e1ebcd58-106b-4b82-b4e1-f801376d1efe")
 		(property "Reference" "F5"
-			(at 93.98 91.44 90)
+			(at 110.49 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2571,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 91.44 90)
+			(at 104.14 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 88.9 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 90.17 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2598,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 90.17 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2635,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 96.52 80.01 90)
+		(at 113.03 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2643,7 +2643,7 @@
 		(dnp no)
 		(uuid "e7baa09e-d155-4097-95e5-17ecea715cc8")
 		(property "Reference" "F3"
-			(at 93.98 81.28 90)
+			(at 110.49 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2651,7 @@
 			)
 		)
 		(property "Value" "PTC Fuse"
-			(at 87.63 81.28 90)
+			(at 104.14 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2659,7 @@
 			)
 		)
 		(property "Footprint" "footprints:FUSC1810X100N"
-			(at 101.6 78.74 0)
+			(at 118.11 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,7 +2669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 80.01 0)
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2678,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 96.52 80.01 0)
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
